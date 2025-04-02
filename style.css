@@ -1,1 +1,79 @@
+/* 1. Class selector */
+.main-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 25px;
+    border: 2px solid #1a5f7a;
+    background-color: #f5f6f5;
+    font-family: 'Verdana', sans-serif;
+}
 
+/* 2. ID selector for the main heading */
+#main-heading {
+    color: #1a5f7a;
+    font-family: 'Georgia', serif;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 3px dashed #ff6b6b;
+    text-align: center;
+}
+
+/* 3. Element selector for the paragraphs */
+p {
+    color: #333;
+    line-height: 1.7;
+    margin: 15px 0;
+    padding: 8px;
+    font-family: 'Verdana', sans-serif;
+}
+
+/* 4. Image styling */
+img {
+    width: 600px;
+    height: auto;
+    margin: 15px auto;
+    padding: 10px;
+    border: 4px solid #95e1d3;
+    border-radius: 10px;
+    display: block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Additional paragraph-specific styling */
+p:nth-child(3) {
+    background-color: #fce38a;
+    border-left: 5px solid #ff6b6b;
+    padding-left: 15px;
+}
+
+p:nth-child(4) {
+    font-style: italic;
+    color: #666;
+}
+
+/* Button link styling */
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #95e1d3;
+    color: #1a5f7a;
+    text-decoration: none;
+    border: 2px solid #1a5f7a;
+    border-radius: 5px;
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+}
+
+.button-link:hover {
+    background-color: #ff6b6b;
+    color: white;
+    border-color: #ff6b6b;
+}
+
+/* Body styling for overall page */
+body {
+    background-color: #e8f1f2;
+    margin: 0;
+    padding: 20px;
+}
